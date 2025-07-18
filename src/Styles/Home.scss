@@ -1,0 +1,40 @@
+.carousel {
+    &-item {
+        img {
+            height: 550px;
+            object-fit: cover;
+        }
+
+    }
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+
+}
+
+.custom-card {
+    transition: transform 0.3s ease;
+}
+.explore-btn{
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+}
+.explore-btn:hover{
+    background-color: orange;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background:orange;
+  border-radius: 10px;
+
+}

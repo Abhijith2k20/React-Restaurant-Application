@@ -1,0 +1,70 @@
+.card{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.cardimg{
+   border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.custom-card{
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.custom-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+.active-category {
+  
+  
+  border-color: orange !important;
+  transition: 0.3s ease;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding: 6px 14px;
+    border-radius: 20px;
+
+    &:hover {
+        color: orange;
+    }
+}
+
+.nav-link.active {
+    background-color: #ffc107;
+    border: 2px solid orange;
+    color: #fff !important;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.custom-add-to-cart-button{
+  background-color: orange;
+  color:black;
+  height: 35px;
+  width: 60%;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+}
+.custom-add-to-cart-button:hover{
+  color:black;
+  background-color: orange;
+
+}
+.responsive-fullwidth-modal {
+  @media (min-width: 992px) { // lg and above
+    max-width: 65% !important;
+
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  // Optional: margin and padding tuning
+  @media (max-width: 991.98px) {
+    padding: 0 1rem;
+  }
+}

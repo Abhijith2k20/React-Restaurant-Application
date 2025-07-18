@@ -1,0 +1,30 @@
+.navbar{
+  background-color:whitesmoke;
+}
+.navbar-brand {
+  color:black;
+  font-size: 30px;
+  font-style: italic;
+  transition: color 0.3s ease;
+  position: relative;
+  font-weight: bold;
+
+  &:hover{
+    color: orange;
+  }
+}
+
+.navbar-nav{
+  margin-right:0 auto;
+
+.nav-link{
+  font-size: 20px;
+  position: relative;
+  transition: color 0.3s ease;
+  font-family: 'Playfair Display', serif;
+
+  &:hover{
+    color: orange;
+  }
+}
+}

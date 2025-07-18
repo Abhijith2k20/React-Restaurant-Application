@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { CartContext } from '../Context/CartProvider';
 import '../Styles/Product.scss';
 import MyNavbar from '../components/Navbar/Navbar';
-import { Nav, Container, Row, Col, Card, Modal, Button, Form } from 'react-bootstrap';
+import { Nav, Container, Row, Col, Card, Modal, Form } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
 import pg from '../Assets/pg.png'
 

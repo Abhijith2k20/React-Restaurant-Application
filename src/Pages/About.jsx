@@ -2,7 +2,7 @@ import React from 'react'
 import MyNavbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import { Container, Col, Row,Card } from 'react-bootstrap'
-import { Homeimg, Homebanner,testimonial } from '../Data/Data.jsx';
+import {Homebanner,testimonial } from '../Data/Data.jsx';
 import { useNavigate } from 'react-router-dom';
 import Food2 from '../Assets/food2.jpg'
 import video1 from '../Assets/video.mp4'

@@ -56,7 +56,7 @@ const Home = () => {
       </h1>
 
       <Container className="mb-5">
-        <div className="d-flex overflow-auto gap-3 pb-3">
+        <div className="d-flex overflow-auto gap-1 pb-3">
           {Categories.map((category) => (
             <div
               key={category.idCategory}

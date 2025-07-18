@@ -14,7 +14,7 @@ const MyNavbar = () => {
   const totalItems = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
-    <Navbar expand="md" className="navbar   sticky-top " style={{height:'100px'}}>
+    <Navbar expand="md" className="navbar   sticky-top " style={{height:'85px'}}>
       <Container fluid>
         <Navbar.Brand as={Link} to="/" className="navbar-brand fs-md-2 fs-sm-4" style={{color:'orange'}}>
           Bitezy

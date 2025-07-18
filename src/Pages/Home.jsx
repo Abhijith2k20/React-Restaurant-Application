@@ -61,7 +61,7 @@ const Home = () => {
             <div
               key={category.idCategory}
               className="flex-shrink-0"
-              style={{ minWidth: '200px' }} // Adjust width as needed
+              style={{ minWidth: '100px' }} // Adjust width as needed
             >
               <Card
                 className="Menus-card shadow-none"

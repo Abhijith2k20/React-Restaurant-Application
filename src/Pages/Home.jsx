@@ -76,7 +76,7 @@ const Home = () => {
                   variant="top"
                   src={category.strCategoryThumb}
                   className="w-100"
-                  style={{ height: '100px', objectFit: 'contain' }}
+                  style={{ height: '90px', objectFit: 'contain' }}
                 />
                 <Card.Body className="text-center">
                   <Card.Title>{category.strCategory}</Card.Title>

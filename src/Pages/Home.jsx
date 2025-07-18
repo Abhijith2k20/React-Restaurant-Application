@@ -38,7 +38,7 @@ const Home = () => {
         {
           Homeimg.map((item) => (
             <Carousel.Item key={item.id}>
-              <img className='d-block w-100 fluid mx-auto' src={item.image} alt="" />
+              <img className='d-block w-100 fluid mx-auto responsive-carousel' src={item.image} alt="" />
               <Carousel.Caption>
                 {/* <h1  style={{fontFamily:'Times',fontSize:'100px'}}>{item.title}</h1> */}
                 <Button className="explore-btn " onClick={() => navigate('/product')}>Explore</Button>

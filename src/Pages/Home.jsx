@@ -48,8 +48,13 @@ const Home = () => {
         }
       </Carousel>
 
-      <h1 className='text-center mt-5 mb-4 df-bold bg-light' style={{ fontFamily: 'Times New Roman, Times, serif', fontSize: '60px' }}>Browse Our Menus</h1>
-      
+      <h1
+        className="text-center mt-5 mb-4 df-bold bg-light responsive-heading"
+        style={{ fontFamily: 'Times New Roman, Times, serif', fontSize: '60px' }}
+      >
+        Browse Our Menus
+      </h1>
+
       <Container className="mb-5">
         <div className="d-flex overflow-auto gap-3 pb-3">
           {Categories.map((category) => (
@@ -65,7 +70,7 @@ const Home = () => {
                     state: { category: category.strCategory },
                   })
                 }
-                style={{border:'none'}}
+                style={{ border: 'none' }}
               >
                 <Card.Img
                   variant="top"

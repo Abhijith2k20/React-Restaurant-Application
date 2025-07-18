@@ -38,3 +38,8 @@
   border-radius: 10px;
 
 }
+@media (max-width: 576px) {
+  .responsive-heading {
+    font-size: 32px !important;
+  }
+}

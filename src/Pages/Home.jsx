@@ -61,7 +61,7 @@ const Home = () => {
             <div
               key={category.idCategory}
               className="flex-shrink-0"
-              style={{ minWidth: '100px' }} // Adjust width as needed
+              style={{ minWidth: '200px' }} // Adjust width as needed
             >
               <Card
                 className="Menus-card shadow-none"
@@ -76,7 +76,7 @@ const Home = () => {
                   variant="top"
                   src={category.strCategoryThumb}
                   className="w-100"
-                  style={{ height: '150px', objectFit: 'contain' }}
+                  style={{ height: '100px', objectFit: 'contain' }}
                 />
                 <Card.Body className="text-center">
                   <Card.Title>{category.strCategory}</Card.Title>
